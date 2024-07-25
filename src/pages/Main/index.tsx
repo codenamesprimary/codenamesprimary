@@ -2,7 +2,7 @@ import styles from "./Main.module.scss";
 
 import main from "~/assets/images/main.jpeg";
 import Button from "../../components/UI/Button";
-import Title from "../../components/UI/Page";
+import Title from "../../components/UI/Title";
 import Description from "../../components/UI/Description";
 import ImagePage from "../../components/UI/ImagePage";
 import Page from "../../components/UI/Page";
