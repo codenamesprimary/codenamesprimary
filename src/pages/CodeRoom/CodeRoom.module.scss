@@ -1,0 +1,16 @@
+.Codes {
+  display: flex;
+  gap: 1rem;
+  input {
+    aspect-ratio: 1;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: 1px solid yellow;
+    font-size: 1.5rem;
+    color: #ededed;
+    width: 100%;
+    border-radius: 8px;
+  }
+}
