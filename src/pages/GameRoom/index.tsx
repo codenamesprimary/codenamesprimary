@@ -10,22 +10,25 @@ import Person from "../../assets/codepictures/person.jpeg";
 
 const GameRoom = () => {
   const [showHint, setShowHint] = useState<boolean>(true);
-  const [spyInfo, setSpyInfo] = useState<{
+  const [spyInfo] = useState<{
+    // const [spyInfo, setSpyInfo] = useState<{
     count: number;
     word: string;
   }>({
     count: 0,
     word: "",
   });
-  const [isTurnYou, setIsTurnYou] = useState<boolean>(false);
-  const [info, setInfo] = useState<{
+  const [isTurnYou] = useState<boolean>(false);
+  // const [isTurnYou, setIsTurnYou] = useState<boolean>(false);
+  // const [info, setInfo] = useState<{
+  const [info] = useState<{
     isSpy: boolean;
     colorTeam: "Blue" | "Red";
-    pictures: CardProps[],
+    pictures: CardProps[];
   }>({
     isSpy: false,
     colorTeam: "Red",
-    pictures: []
+    pictures: [],
   });
   const pictures: CardProps[] = [
     { src: pyramidFreedom, color: undefined },
